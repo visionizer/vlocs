@@ -291,3 +291,7 @@ As an example, if we want to create an array with size 4, we use
 ```v
 mut fixed := [3]int{} // Declaring a fixed array with 3 elements
 ```
+
+## Handling errors in Arrays?
+
+What if you want to access an element that does not exist? What do you do then? [In one of the last chapters you learned what to do](../error-handling).

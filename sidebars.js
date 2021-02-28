@@ -24,6 +24,7 @@ module.exports = {
         type: "category",
         label: "More Complex V",
         items: [
+          "learning_v/complex_v/error-handling",
           {
             type: "category",
             label: "More about Basic Types",
@@ -40,10 +41,35 @@ module.exports = {
               "learning_v/complex_v/complex_types/maps",
               "learning_v/complex_v/complex_types/structs"
             ]
-          }
-
+          },
+          {
+            type: "category",
+            label: "Keywords & How to use them",
+            items: [
+              "learning_v/complex_v/keywords/keywords",
+              "learning_v/complex_v/keywords/if",
+              "learning_v/complex_v/keywords/if-else",
+              "learning_v/complex_v/keywords/for-loop",
+              "learning_v/complex_v/keywords/in",
+            ],
+          },
+          {
+            type: "category",
+            label: "Even more complex V",
+            items: [
+              {
+                type: "category",
+                label: "Modules, Importing and Standard Libraries",
+                items: [
+                  "learning_v/complex_v/modules_and_more/modules/imports",
+                  "learning_v/complex_v/modules_and_more/modules/stdlib",
+                ]
+              },
+            ]
+          },
         ],
-      }
+      },
+      "learning_v/project-structure"
     ],
     },
     {
@@ -51,5 +77,12 @@ module.exports = {
       label: "V by Example",
       items: ["learning_v/documentation-goals"],
     },
+    {
+      type: "category",
+      label: "V's Standard Libraries",
+      items: [
+        "learning_v/complex_v/modules_and_more/modules/stdlib"
+      ],
+    }
   ],
 };
