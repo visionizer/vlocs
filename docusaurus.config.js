@@ -9,6 +9,9 @@ module.exports = {
   organizationName: 'visionizer', // Usually your GitHub org/user name.
   projectName: 'vlocs', // Usually your repo name.
   themeConfig: {
+    prism: {
+      //additionalLanguages: ['powershell'],
+    },
     navbar: {
       title: 'Vlocs',
       logo: {
@@ -72,7 +75,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/visionizer/vlocs',
             },
           ],
         },

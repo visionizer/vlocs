@@ -1,6 +1,5 @@
 ---
-id: doc4
+id: hello_world
 title: lel
 sidebar_label: Something
-slug: /test
 ---

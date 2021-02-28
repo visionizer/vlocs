@@ -2,7 +2,7 @@
 id: doc1
 title: Style Guide
 sidebar_label: Style Guide
-slug: /
+slug: /t
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
@@ -200,4 +200,8 @@ This is a caution
 
 This is a warning
 
+:::
+
+:::caution
+This is a test
 :::
