@@ -44,11 +44,10 @@ module.exports = {
           },
           {
             type: "category",
-            label: "Keywords & How to use them",
+            label: "Keywords, Statements & Expressions",
             items: [
               "learning_v/complex_v/keywords/keywords",
               "learning_v/complex_v/keywords/if",
-              "learning_v/complex_v/keywords/if-else",
               "learning_v/complex_v/keywords/for-loop",
               "learning_v/complex_v/keywords/in",
             ],

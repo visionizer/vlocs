@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Beginner Friendly',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We try to make our documentation readable for everyone, of every skill-level. V is supposed to be simple, after all and it will not be simple if the documentation isn't.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Learn everything important',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Here you can learn how to code in V. Which Keywords are there? Are there classes? What types are there? What are functions?
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Research Standard Libraries',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You can easily research everything about standard libraries here. Which library should I use? What functions do they have?
       </>
     ),
   },
