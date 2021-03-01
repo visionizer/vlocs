@@ -7,6 +7,10 @@ title: "Strings in V"
 This will be covered later, yet we will use it here. Basically, it will check if the condition given is true and if it is not true, it will throw an error. To learn more, click [here](asserts)
 :::
 
+:::tip String is just a struct
+What is a struct? You will learn soon...
+:::
+
 ## What even is this?
 
 Do you remember? Strings are Text.

@@ -42,3 +42,7 @@ Unsigned means that a value can only be positive
 :::caution About 64-Bit
 64-Bit Data Types will only run on 64-Bit Systems, this excludes many older systems. Think about this while developing.
 :::
+
+## Can a variable have two possible types?
+
+A Variable will automatically choose a type, yet you can give it two types at once using the [type](complex_v/types) keyword.

@@ -71,3 +71,17 @@ So, what does this mean? It basically say that if the modula of num is 0. Modula
 the division through 2 is 0, then it is even.
 
 As a next step, you use this interesting syntax. It basically will assign the first value (`even`) to the `s` if the condition is true. `Else` it will assign `odd`
+
+## Check if something is not true
+
+This can be easily done using the `!` symbol.
+
+For example, a simple statement from one of the [next chapters](typechecks)
+
+```v
+if x !is Abc {
+	println(x)
+}
+```
+
+As you may notice, we placed the `!` in front of the keyword.

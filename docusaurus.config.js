@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'vlocs', // Usually your repo name.
   themeConfig: {
     prism: {
-      //additionalLanguages: ['powershell'],
+      //additionalLanguages: ['uri'],
     },
     navbar: {
       title: 'Vlocs',
@@ -37,45 +37,49 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'More Vlocs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: "Vloc's GitHub Repository",
+              to: 'https://github.com/visionizer/vlocs',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Getting Started with V',
+              to: 'docs/getting_started/install-v',
             },
           ],
         },
         {
-          title: 'Community',
+          title: "V's Community",
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/vlang',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.com/invite/vlang',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/v_language',
+            },
+            {
+              label: "VPM",
+              href: "https://vpm.vlang.io/"
             },
           ],
         },
         {
-          title: 'More',
+          title: 'More about V',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Official Website',
+              href: 'https://vlang.io/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/visionizer/vlocs',
+              label: "V's Github",
+              href: 'https://github.com/vlang/v',
             },
           ],
         },

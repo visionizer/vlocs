@@ -2,6 +2,12 @@
 id: "functions"
 title: "Functions in V"
 ---
+
+:::danger This is only one of two parts
+There are two parts on functions. One with basic function knowledge and one with advanced function knowledge. Why? Because in order to understand the advanced functions, you need to understand a lot about V.
+Click [here](complex_v/advanced-functions) to visit the second part.
+:::
+
 ## Functions take in Input and Produce Output...
 
 But what does this even mean?
@@ -23,6 +29,8 @@ First, it tells the compiler that we are declaring a function using the `fn` key
 **after** the name. In this case, we want both of our inputs to have the [type](basic-types) of `int`. We can use these Inputs as variables as long as we are within the function.
 
 Wait... If we declare input in the parentheses, what does the int after them mean? It tells the compiler what the function will return.
+
+### Return
 
 What is return? Return will return any value (variable or not). This will also stop the function.
 
@@ -145,7 +153,7 @@ This keyword can only be used while being in a [module](modules)
 
 ## Declaring functions as input / Declaring Anonymous Functions
 
-If you want to use a function as input, it can be done as you would declare any other function.
+You will learn this in the chapter [Functions in V, Part 2](complex_v/advanced-functions#anonymous-and-high-order-functions-in-v)
 
 ### Example
 
@@ -156,3 +164,38 @@ upper_fn := words.map(fn (w string) string {
 
 ```
 Taken from [the array documentation](complex_v/arrays#filtering--mapping-arrays)
+
+## How to make your functions more clear
+
+:::caution Variable Names
+Input Names should be very descriptive, so do not use my names
+:::
+
+Let us say that you want to create some large function and call it
+```v
+fn foo(a int, b int, c int, d int, e int, f int, g int) int {
+    return 1
+}
+
+// Some other file
+fn main() {
+    foo(1, 2, 3, 4, 5, 6, 7)
+}
+```
+
+Now, let us say that we not only imported this function but also that the variables are very different. Someone who hasn't written this code will be confused. What are these names?
+Will they really have to go onto a website? I hope not.
+This is why we can describe these parameters like this:
+
+```v
+fn main() {
+    foo(a: 1, b: 2, c: 3, d: 4, e: 5, f: 6, g: 7)
+}
+```
+As you may see, now you know what the corresponding inputs are called.
+
+
+:::danger This is only one of two parts
+There are two parts on functions. One with basic function knowledge and one with advanced function knowledge. Why? Because in order to understand the advanced functions, you need to understand a lot about V.
+Click [here](complex_v/advanced-functions) to visit the second part.
+:::
